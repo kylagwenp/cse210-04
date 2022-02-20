@@ -42,7 +42,7 @@ root                    (project root folder)
 * Amon Brollo
 * Giovanni Bonfim
 * Isiakpona Chuks
-* Jason McLaughlin
+* Jason McLaughlin (email: jasnatbyui@gmail.com)
 * Kyla Papa
 * Ronilo Gulay
 * Alan Montoya
