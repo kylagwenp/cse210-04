@@ -44,8 +44,8 @@ root                    (project root folder)
 
 ## Game Design
 
-This will will the design of our game
-![Game Class Design](design.png)
+This will be the design of our game
+![Game Class Design](team-design.png)
 
 ## Required Technologies
 
