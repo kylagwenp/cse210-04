@@ -1,4 +1,4 @@
 import pyray
 
-class Video_service():
+class VideoService():
     pass

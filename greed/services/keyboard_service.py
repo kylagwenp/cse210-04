@@ -1,4 +1,4 @@
 import pyray
 
-class Keyboard_service():
+class KeyboardService():
     pass
