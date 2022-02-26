@@ -2,11 +2,6 @@ from shared.color import Color
 from shared.point import Point
 
 class Actor:
-    def falling_shapes(self):
-        pass
-    def removing_shapes(self):
-        pass
-
     """A visible, moveable thing that participates in the game. 
     
     The responsibility of Actor is to keep track of its appearance, position and velocity in 2d 
