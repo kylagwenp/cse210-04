@@ -6,7 +6,6 @@ class Actor:
         pass
     def removing_shapes(self):
         pass
-    pass
 
     """A visible, moveable thing that participates in the game. 
     

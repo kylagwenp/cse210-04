@@ -39,7 +39,7 @@ def main():
     
     # create the robot
     x = int(MAX_X / 2)
-    y = int(1)
+    y = int(MAX_Y - CELL_SIZE * 2)
     position = Point(x, y)
 
     robot = Actor()
@@ -49,11 +49,10 @@ def main():
     robot.set_position(position)
     cast.add_actor("robots", robot)
     
-    
     # create the artifacts
-
     for n in range(DEFAULT_ARTIFACTS):
-        text = chr(random.randint(33, 126))
+        items = ["O","*"]
+        text = (random.choice(items))
 
         x = random.randint(1, COLS - 1)
         y = random.randint(1, ROWS - 1)
@@ -77,8 +76,6 @@ def main():
     video_service = VideoService(CAPTION, MAX_X, MAX_Y, CELL_SIZE, FRAME_RATE)
     director = Director(keyboard_service, video_service)
     director.start_game(cast)
-
-   
 
 
 if __name__ == "__main__":
