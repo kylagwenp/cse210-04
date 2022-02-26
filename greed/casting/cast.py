@@ -1,2 +1,2 @@
-class Cast():
+class Cast:
     pass

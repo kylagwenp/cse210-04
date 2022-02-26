@@ -1,3 +1,2 @@
-
-class Color():
+class Color:
     pass
