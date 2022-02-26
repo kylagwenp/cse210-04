@@ -1,5 +1,5 @@
 import pyray
-from greed.shared.point import Point
+from shared.point import Point
 
 class KeyboardService:
     """Detects player input. 

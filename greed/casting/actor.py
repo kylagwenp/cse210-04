@@ -1,5 +1,5 @@
-from greed.shared.color import Color
-from greed.shared.point import Point
+from shared.color import Color
+from shared.point import Point
 
 class Actor:
     def falling_shapes(self):
