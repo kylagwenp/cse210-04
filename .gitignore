@@ -356,4 +356,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Virtual enviroment
+/greed_requirements
+
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm,visualstudiocode,windows,macos,linux

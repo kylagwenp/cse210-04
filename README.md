@@ -21,6 +21,11 @@ After you've installed the required libraries, open a terminal and browse to the
 python3 greed
 ```
 
+If you want to use a virtual enviroment in your machine you can restore after create your virtual enviroment run this command to restore program required libraries.
+```
+python3 -m install -r requirements.txt
+```
+
 You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the
 project folder. Select the main module inside the hunter folder and click the "run" icon.
 
