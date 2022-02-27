@@ -1,0 +1,5 @@
+cffi==1.15.0
+inflection==0.5.1
+pycparser==2.21
+pyray==0.1.0
+raylib==3.7.0.post10
