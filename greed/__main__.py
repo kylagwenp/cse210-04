@@ -23,11 +23,11 @@ CAPTION = "Greed"
 WHITE = Color(255, 255, 255)
 DEFAULT_ARTIFACTS = 40
 
+
 def main():
-    
     # create the cast
     cast = Cast()
-    
+
     # create the banner
     banner = Actor()
     banner.set_text("")
@@ -35,7 +35,7 @@ def main():
     banner.set_color(WHITE)
     banner.set_position(Point(CELL_SIZE, 0))
     cast.add_actor("banners", banner)
-    
+
     # create the robot
     x = int(MAX_X / 2)
     y = int(MAX_Y - CELL_SIZE * 2)
@@ -47,11 +47,11 @@ def main():
     robot.set_color(WHITE)
     robot.set_position(position)
     cast.add_actor("robots", robot)
-    
+
     # create the artifacts
     for n in range(DEFAULT_ARTIFACTS):
-        items = ["O","*"]
-        text = (random.choice(items))
+        items = ["O", "*"]
+        text = random.choice(items)
 
         x = random.randint(1, COLS - 1)
         y = random.randint(1, ROWS - 1)
@@ -62,7 +62,7 @@ def main():
         g = random.randint(0, 255)
         b = random.randint(0, 255)
         color = Color(r, g, b)
-        
+
         artifact = Artifact()
         artifact.set_text(text)
         artifact.set_font_size(FONT_SIZE)

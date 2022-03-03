@@ -1,3 +1,6 @@
+import random
+
+
 class Point:
     """A distance from a relative origin (0, 0).
 
@@ -8,10 +11,10 @@ class Point:
         _x (integer): The horizontal distance from the origin.
         _y (integer): The vertical distance from the origin.
     """
-    
+
     def __init__(self, x, y):
         """Constructs a new Point using the specified x and y values.
-        
+
         Args:
             x (int): The specified x value.
             y (int): The specified y value.
@@ -45,15 +48,16 @@ class Point:
 
     def get_x(self):
         """Gets the horizontal distance.
-        
+
         Returns:
             integer: The horizontal distance.
         """
+        self._x = random.randint(50, 750)
         return self._x
 
     def get_y(self):
         """Gets the vertical distance.
-        
+
         Returns:
             integer: The vertical distance.
         """
@@ -65,7 +69,7 @@ class Point:
 
         Args:
             factor (int): The amount to scale.
-            
+
         Returns:
             Point: A new Point that is scaled.
         """
