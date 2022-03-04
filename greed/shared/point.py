@@ -52,7 +52,6 @@ class Point:
         Returns:
             integer: The horizontal distance.
         """
-        self._x = random.randint(50, 750)
         return self._x
 
     def get_y(self):
